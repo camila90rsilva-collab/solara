@@ -48,12 +48,8 @@ export default function Home() {
   }
 
   const areas = [
-    { id: 'vendas', nome: 'Vendas', ativo: perfil?.areas?.includes('vendas') || false },
-    {
-      id: 'financeiro',
-      nome: 'Financeiro',
-      ativo: perfil?.areas?.includes('financeiro') || false,
-    },
+    { id: 'vendas', nome: 'Vendas', ativo: false },
+    { id: 'financeiro', nome: 'Financeiro', ativo: false },
     { id: 'rh', nome: 'RH', ativo: false },
     { id: 'juridico', nome: 'Jurídico', ativo: false },
     { id: 'operacoes', nome: 'Operações', ativo: false },
